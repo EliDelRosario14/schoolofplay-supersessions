@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Super Sessions</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Fredoka+One&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style_images.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background: linear-gradient(90deg, #004080, #0066cc);">
+    <div class="container">
+      <a href="index.html" class="navbar-brand d-flex align-items-center">
+        <img src="images/SOP.png" alt="ewan" width="113" height="75" class="me-3" id="logo">
+      </a>
+
+ 
+    <div class="ms-auto text-center text-lg-end">
+    <a href="https://schoolofplay.ipalbookings.com/" class="btn btn-warning px-4 py-2 fw-bold rounded-pill shadow book-button">
+    ✅ Book Now!
+    </a>
+    </div>
+  </nav>
+
+  
+
+  <!-- Hero Banner -->
+<header class="hero-section text-white d-flex align-items-center justify-content-center rotating-banner">
+  <!-- Vignette Overlay -->
+  <div class="vignette-overlay"></div>
+
+  <div class="container text-center" style="position: relative; z-index: 1;">
+    <h1 class="fw-bold" style="font-family: 'Comic Sans MS', cursive; font-size: 3rem;">
+      Introducing Super Sessions!
+    </h1>
+    <p class="lead" style="font-size: 1.3rem;">Games, laughter, and adventures for kids of all ages!</p>
+    <a href="https://schoolofplay.ipalbookings.com/" class="btn btn-warning btn-lg rounded-pill shadow fun-button">
+      🚀 Join the Fun Today!
+    </a>
+  </div>
+</header>
+
+
+
+  </div>
+</header>
+
+  <!-- Programme Details Section -->
+  <section class="container my-5">
+
+<div class="text-center mb-5">
+  <h2 class="programs-title d-inline-block px-5 py-3">
+    🏀 Our Programs 🏸
+  </h2>
+  <p class="programs-signage mt-3">
+    👉 Hover or Click the cards to see their benefits!
+  </p>
+</div>
+
+
+<div class="row g-4">
+
+      <!-- Laser Tag -->
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card h-100 text-center shadow border-0">
+          <img src="images/SuperSessions/LaserTag/DSC00128.jpg" alt="Laser Tag" class="card-img-top programme-img">
+          <div class="card-body">
+            <h5 class="card-title text-primary">Laser Tag</h5>
+            <p class="card-text">Gear up for thrilling battles with friends in a neon-lit arena full of action.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pickleball -->
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card h-100 text-center shadow border-0">
+          <img src="images/SuperSessions/Pickleball/pickleball.png" alt="Pickleball" class="card-img-top programme-img">
+          <div class="card-body">
+            <h5 class="card-title text-primary">Pickleball</h5>
+            <p class="card-text">Fast-paced fun combining tennis, badminton, and ping pong — perfect for all skill levels.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Radio-Controlled Cars -->
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card h-100 text-center shadow border-0">
+          <img src="images/SuperSessions/RadioControlledCars/DSC09836.JPG" alt="Radio-Controlled Cars" class="card-img-top programme-img">
+          <div class="card-body">
+            <h5 class="card-title text-primary">Remote-Controlled Cars</h5>
+            <p class="card-text">Race miniature cars on exciting tracks and test your driving skills in style.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Glow-in-the-Dark Dodgeball -->
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card h-100 text-center shadow border-0">
+          <img src="images/SuperSessions/GlowintheDarkDodgeball/DSC00007.JPG" alt="Glow Dodgeball" class="card-img-top programme-img">
+          <div class="card-body">
+            <h5 class="card-title text-primary">Glow-in-the-Dark Dodgeball</h5>
+            <p class="card-text">Dive into high-energy dodgeball matches under glowing lights for an unforgettable experience.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+<!-- Modal upon hovering the Programme Cards -->
+<!-- Laser Tag Modal -->
+<div class="modal fade" id="laserTagModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <img src="images/modals/53.jpg" alt="Laser Tag Context" class="img-fluid rounded">
+    </div>
+  </div>
+</div>
+
+<!-- Pickleball Modal -->
+<div class="modal fade" id="pickleballModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <img src="images/modals/56.png" alt="Pickleball Context" class="img-fluid rounded">
+    </div>
+  </div>
+</div>
+
+<!-- Radio-Controlled Cars Modal -->
+<div class="modal fade" id="carsModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <img src="images/modals/52.jpg" alt="Cars Context" class="img-fluid rounded">
+    </div>
+  </div>
+</div>
+
+<!-- Glow Dodgeball Modal -->
+<div class="modal fade" id="dodgeballModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <img src="images/modals/51.jpg" alt="Dodgeball Context" class="img-fluid rounded">
+    </div>
+  </div>
+</div>
+
+<!-- Script for the Modal Cards -->
+<script>
+  function addHoverModal(cardSelector, modalId, delay = 400) {
+    const card = document.querySelector(cardSelector);
+    let timer;
+
+    card.addEventListener("mouseenter", () => {
+      timer = setTimeout(() => {
+        const modal = new bootstrap.Modal(document.getElementById(modalId));
+        modal.show();
+      }, delay); // delay in ms
+    });
+
+    card.addEventListener("mouseleave", () => {
+      clearTimeout(timer);
+      const modalEl = document.getElementById(modalId);
+      const modalInstance = bootstrap.Modal.getInstance(modalEl);
+      if (modalInstance) modalInstance.hide();
+    });
+  }
+
+  // Apply to each card (nth-child matches order in your row)
+  addHoverModal(".row .col-12:nth-child(1) .card", "laserTagModal", 500);
+  addHoverModal(".row .col-12:nth-child(2) .card", "pickleballModal", 500);
+  addHoverModal(".row .col-12:nth-child(3) .card", "carsModal", 500);
+  addHoverModal(".row .col-12:nth-child(4) .card", "dodgeballModal", 500);
+</script>
+  
+<!-- Why Us Section -->
+<section class="why-us-section text-center text-white py-5 my-6">
+  <div class="container">
+    <h2 class="fw-bold mb-5">
+      🌟 Why Choose <span class="text-warning">Super Sessions</span>?
+    </h2>
+
+    <div class="row g-4 justify-content-center">
+      <!-- Point 1 -->
+      <div class="col-12 col-md-4">
+        <div class="feature-box p-4 rounded-4 shadow-lg">
+          <div class="icon mb-3">🎉</div>
+          <h5 class="fw-bold">Fun First</h5>
+          <p>Every activity sparks joy, laughter, and unforgettable memories for kids of all ages.</p>
+        </div>
+      </div>
+
+      <!-- Point 2 -->
+      <div class="col-12 col-md-4">
+        <div class="feature-box p-4 rounded-4 shadow-lg">
+          <div class="icon mb-3">🌈</div>
+          <h5 class="fw-bold">Inclusive & Safe</h5>
+          <p>From beginners to seasoned players, everyone is welcome in a safe, supportive environment.</p>
+        </div>
+      </div>
+
+      <!-- Point 3 -->
+      <div class="col-12 col-md-4">
+        <div class="feature-box p-4 rounded-4 shadow-lg">
+          <div class="icon mb-3">🚀</div>
+          <h5 class="fw-bold">Skill & Growth</h5>
+          <p>Kids build confidence, teamwork, and problem‑solving skills while having a blast.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials Section -->
+<section class="container my-5 text-center testimonials-section">
+  <div class="mb-4">
+    <h2 class="fw-bold border border-3 border-warning rounded-pill d-inline-block px-4 py-2 text-light bg-success shadow">
+      🌟 Testimonials
+    </h2>
+  </div>
+
+
+  <div class="row g-4 justify-content-center">
+    <!-- Testimonial 1 -->
+    <div class="col-12 col-md-4 text-center mt-4">
+      <div class="card h-100 shadow border-0">
+        <div class="card-body text-center">
+          <p class="card-text fst-italic">
+            “Archie loved it as always. Staff were great especially when Archie had an injury and needed to be picked up quickly.”
+          </p>
+          <h6 class="fw-bold text-primary">– Mair Morrisey(Urmston Camp)</h6>
+        </div>
+      </div>
+    </div>
+
+    <!-- Testimonial 2 -->
+    <div class="col-12 col-md-4 text-center mt-4">
+      <div class="card h-100 shadow border-0">
+        <div class="card-body text-center">
+          <p class="card-text fst-italic">
+           “I have one child in play and one in sport. Both loved it. Clearly lots of thought gone into resources for play in particular. 
+           Lots of unusual and creative pieces coming home each day!”
+          </p>
+          <h6 class="fw-bold text-primary">– Katherine Moulder(Chorlton Camp)</h6>
+        </div>
+      </div>
+    </div>
+
+    <!-- Testimonial 3 -->
+    <div class="col-12 col-md-4 text-center">
+      <div class="card h-100 shadow border-0">
+        <div class="card-body text-center">
+          <p class="card-text fst-italic">
+           “This was my daughters first time at Holiday Camp. She had a great time and was well looked after. She really enjoyed all the crafts and making new friends.”
+          </p>
+          <h6 class="fw-bold text-primary">– Rachel Prince(Chorlton Camp)</h6>
+        </div>
+      </div>
+    </div>
+
+     <!-- Testimonial 4 -->
+    <div class="col-12 col-md-4 text-center">
+      <div class="card h-100 shadow border-0">
+        <div class="card-body text-center">
+          <p class="card-text fst-italic">
+            “Enjoy the structure, the friendliness of staff, love the way staff greet at the door and seem to know all the children’s names. 
+            Love the certificates and rewards for good behaviour and effort.”
+          </p>
+          <h6 class="fw-bold text-primary">– Natalie(Urmston Camp)</h6>
+        </div>
+      </div>
+    </div>
+
+
+     <!-- Testimonial 5 -->
+    <div class="col-12 col-md-4 text-center">
+      <div class="card h-100 shadow border-0">
+        <div class="card-body text-center">
+          <p class="card-text fst-italic">
+            “The girls seem to really enjoy the camp, it is a very friendly atmosphere and they always come home happy and wanting to go back!”
+          </p>
+          <h6 class="fw-bold text-primary">– Nicola Jackson(Bowdon Camp)</h6>
+        </div>
+      </div>
+    </div>
+
+     <!-- Testimonial 6 -->
+    <div class="col-12 col-md-4 text-center">
+      <div class="card h-100 shadow border-0">
+        <div class="card-body text-center">
+          <p class="card-text fst-italic">
+           “This is the second time our children have gone to School of Play and School of Sport. As always, the staff are amazing, 
+           energetic and supportive. Our children absolutely love being there!”
+          </p>
+          <h6 class="fw-bold text-primary">– Nikoll Carr(Urmston Camp)</h6>
+        </div>
+      </div>
+    </div>
+
+    <!-- Testimonial 7 -->
+     <div class="col-12 col-md-4 text-center">
+      <div class="card h-100 shadow border-0">
+        <div class="card-body text-center">
+          <p class="card-text fst-italic">
+           “First time for my daughter.  Staff seemed lovely and I had an update in the day. My daughter enjoyed her day and overall was really impressed.”
+          </p>
+          <h6 class="fw-bold text-primary">– Jenny woolstencroft</h6>
+        </div>
+      </div>
+    </div>
+
+        <!-- Testimonial 8 -->
+     <div class="col-12 col-md-4 text-center">
+      <div class="card h-100 shadow border-0">
+        <div class="card-body text-center">
+          <p class="card-text fst-italic">
+           “The staff are friendly and professional. The camp is well organised and my daughter loves the staff and the activities. 
+           I feel confident I am leaving my daughter in a safe environment.”
+          </p>
+          <h6 class="fw-bold text-primary">– Sarah Sinnott (Prestbury Camp)</h6>
+        </div>
+      </div>
+    </div>
+
+        <!-- Testimonial 9 -->
+     <div class="col-12 col-md-4 text-center">
+      <div class="card h-100 shadow border-0">
+        <div class="card-body text-center">
+          <p class="card-text fst-italic">
+          “Elias really enjoyed himself and was keen to get in each day – we felt he was well looked after (and tired!). 
+          The organisation of the camp was excellent. I welcomed the call from Sophie to see if I had any questions.”
+          </p>
+          <h6 class="fw-bold text-primary">– Dmitri Gallagher(Urmston Camp)</h6>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+
+</section>
+
+<!-- Visit Our Website Section -->
+<section class="visit-section py-5">
+  <div class="visit-container">
+    <div class="row align-items-center">
+      
+      <!-- Left Side: Text + Button -->
+      <div class="col-12 col-md-6 text-center text-md-start mb-4 mb-md-0">
+        <h2 class="fw-bold mb-4 text-light display-4">
+          Ready to Explore More?
+        </h2>
+        <p class="text-light mb-5 fs-5">
+          Discover all our programs, camps, and activities online — your adventure starts here!
+        </p>
+        <a href="https://schoolofplay.ipalbookings.com/" target="_blank" class="visit-btn">
+          Visit Our Website 🚀
+        </a>
+      </div>
+
+  <!-- Right Side: Carousel with Booking -->
+<div class="col-12 col-md-6 my-6 text-center">
+  <div id="visitCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <img src="images/Carousel/CreateCrew.jpg" class="d-block w-100 rounded shadow-lg" alt="Create Crew">
+        <p class="carousel-caption-custom">Create Crew</p>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <img src="images/Carousel/Archery.JPG" class="d-block w-100 rounded shadow-lg" alt="Archery">
+        <p class="carousel-caption-custom">Archery</p>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-item">
+        <img src="images/Carousel/Basketball.JPG" class="d-block w-100 rounded shadow-lg" alt="Basketball">
+        <p class="carousel-caption-custom">Basketball</p>
+      </div>
+
+
+      <!-- Slide 4 -->
+      <div class="carousel-item">
+        <img src="images/Carousel/Cricket.JPG" class="d-block w-100 rounded shadow-lg" alt="Cricket">
+        <p class="carousel-caption-custom">Cricket</p>
+      </div>
+
+      <!-- Slide 5 -->
+      <div class="carousel-item">
+        <img src="images/Carousel/FootballFanatics.JPG" class="d-block w-100 rounded shadow-lg" alt="Football Fanatics">
+        <p class="carousel-caption-custom">Football Fanatics</p>
+      </div>
+
+       <!-- Slide 5 -->
+      <div class="carousel-item">
+        <img src="images/Carousel/DodgeBall.jpg" class="d-block w-100 rounded shadow-lg" alt="Football Fanatics">
+        <p class="carousel-caption-custom">Football Fanatics</p>
+      </div>
+
+    </div>
+
+    <!-- Carousel Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#visitCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#visitCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+</div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Footer -->
+<footer class="footer-section text-white text-center py-4" style="background: linear-gradient(90deg, #004080, #0066cc);">
+  <div class="container">
+    <p class="mb-3">© 2026 School of Play | All Rights Reserved</p>
+    <div class="social-links">
+      <a href="https://x.com/Schoolofplay_uk" target="_blank" class="text-white me-3 fs-4"><i class="bi bi-twitter-x"></i></a>
+      <a href="https://www.youtube.com/channel/UCAYDCG7cyHEtCQ_muHrMk7w" target="_blank" class="text-white me-3 fs-4"><i class="bi bi-youtube"></i></a>
+      <a href="https://www.instagram.com/schoolofplay.uk/" target="_blank" class="text-white me-3 fs-4"><i class="bi bi-instagram"></i></a>
+      <a href="https://www.facebook.com/schoolofplay.manc" target="_blank" class="text-white fs-4"><i class="bi bi-facebook"></i></a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

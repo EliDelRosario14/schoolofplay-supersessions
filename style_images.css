@@ -1,0 +1,32 @@
+.programme-img {
+  width: 200px;              /* larger size */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 10px;       /* optional rounded corners */
+}
+
+.programme-img:hover {
+  transform: scale(1.1);     /* zoom effect */
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3); /* subtle shadow */
+}
+
+.programme-card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, border 0.3s ease;
+}
+.programme-img {
+  width: 250px;        
+  height: 180px;       
+  object-fit: cover;   
+  border-radius: 10px;
+  display: block;     
+  margin: 0 auto;      
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.programme-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+}
